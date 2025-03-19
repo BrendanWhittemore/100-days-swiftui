@@ -6,4 +6,4 @@ is an app designed to help groups of friends split a check. It takes into accoun
 - Tip amount
 - Number of friends
 
-![Screenshot of WeSplit app](attachments/wesplit.png)
+<img src="attachments/wesplit.png" alt="Screenshot of WeSplit app" width="25%">
