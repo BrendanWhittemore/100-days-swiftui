@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  wesplit
+//  WeSplit
 //
-//  Created by Brendan Whittemore on 3/18/25.
+//  Created by Brendan Whittemore on 3/19/25.
 //
 
 import SwiftUI
