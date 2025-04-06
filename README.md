@@ -9,3 +9,7 @@ WeSplit helps groups of friends split a check. Read more about WeSplit [here](We
 ## Project 2: Guess the Flag
 
 Guess the Flag is a game about guessing flags from around the world. Read more about Guess the Flag [here](GuessTheFlag/README.md).
+
+## Project 2: Views and Modifiers
+
+Views and Modifiers is a basic view meant to introduce custom views and view modifiers. Read more about Views and Modifiers [here](ViewsAndModifiers/README.md).
