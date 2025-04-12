@@ -46,15 +46,11 @@ struct ContentView: View {
                             .font(.largeTitle)
                             .foregroundStyle(.blue)
                             .frame(maxWidth: .infinity, alignment: .center)
-                        
-                        
                     } else {
                         Text("Error calculating bedtime, try again later.")
                             .foregroundStyle(.red)
                     }
-                    
                 }
-                .frame(alignment: .center)
             }
             .navigationTitle("BetterRest")
         }
@@ -69,7 +65,7 @@ struct ContentView: View {
             let hour = (components.hour ?? 0) * 60 * 60
             let minute = (components.minute ?? 0) * 60
             
-            let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
+            let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount + 1))
             
             let sleepTime = wakeUp - prediction.actualSleep
             
